@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B225DECC15636CCB007DA8A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B225DECB15636CCB007DA8A0 /* UIKit.framework */; };
+		B225DECE15636CCB007DA8A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B225DECD15636CCB007DA8A0 /* Foundation.framework */; };
+		B225DED015636CCB007DA8A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B225DECF15636CCB007DA8A0 /* CoreGraphics.framework */; };
+		B225DED615636CCB007DA8A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B225DED415636CCB007DA8A0 /* InfoPlist.strings */; };
+		B225DED815636CCB007DA8A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B225DED715636CCB007DA8A0 /* main.m */; };
+		B225DEDC15636CCB007DA8A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B225DEDB15636CCB007DA8A0 /* AppDelegate.m */; };
+		B225DEDF15636CCB007DA8A0 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B225DEDD15636CCB007DA8A0 /* MainStoryboard_iPhone.storyboard */; };
+		B225DEE215636CCB007DA8A0 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B225DEE015636CCB007DA8A0 /* MainStoryboard_iPad.storyboard */; };
+		B225DEE515636CCB007DA8A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B225DEE415636CCB007DA8A0 /* ViewController.m */; };
+		B225DEED15636CCB007DA8A0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B225DEEC15636CCB007DA8A0 /* SenTestingKit.framework */; };
+		B225DEEE15636CCB007DA8A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B225DECB15636CCB007DA8A0 /* UIKit.framework */; };
+		B225DEEF15636CCB007DA8A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B225DECD15636CCB007DA8A0 /* Foundation.framework */; };
+		B225DEF715636CCB007DA8A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B225DEF515636CCB007DA8A0 /* InfoPlist.strings */; };
+		B225DEFA15636CCB007DA8A0 /* ViwBasedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B225DEF915636CCB007DA8A0 /* ViwBasedTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B225DEF015636CCB007DA8A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B225DEBE15636CCB007DA8A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B225DEC615636CCB007DA8A0;
+			remoteInfo = ViwBased;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B225DEC715636CCB007DA8A0 /* ViwBased.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViwBased.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B225DECB15636CCB007DA8A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B225DECD15636CCB007DA8A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B225DECF15636CCB007DA8A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B225DED315636CCB007DA8A0 /* ViwBased-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViwBased-Info.plist"; sourceTree = "<group>"; };
+		B225DED515636CCB007DA8A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B225DED715636CCB007DA8A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B225DED915636CCB007DA8A0 /* ViwBased-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViwBased-Prefix.pch"; sourceTree = "<group>"; };
+		B225DEDA15636CCB007DA8A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B225DEDB15636CCB007DA8A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B225DEDE15636CCB007DA8A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B225DEE115636CCB007DA8A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B225DEE315636CCB007DA8A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B225DEE415636CCB007DA8A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B225DEEB15636CCB007DA8A0 /* ViwBasedTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViwBasedTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B225DEEC15636CCB007DA8A0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B225DEF415636CCB007DA8A0 /* ViwBasedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViwBasedTests-Info.plist"; sourceTree = "<group>"; };
+		B225DEF615636CCB007DA8A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B225DEF815636CCB007DA8A0 /* ViwBasedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViwBasedTests.h; sourceTree = "<group>"; };
+		B225DEF915636CCB007DA8A0 /* ViwBasedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViwBasedTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B225DEC415636CCB007DA8A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B225DECC15636CCB007DA8A0 /* UIKit.framework in Frameworks */,
+				B225DECE15636CCB007DA8A0 /* Foundation.framework in Frameworks */,
+				B225DED015636CCB007DA8A0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B225DEE715636CCB007DA8A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B225DEED15636CCB007DA8A0 /* SenTestingKit.framework in Frameworks */,
+				B225DEEE15636CCB007DA8A0 /* UIKit.framework in Frameworks */,
+				B225DEEF15636CCB007DA8A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B225DEBC15636CCB007DA8A0 = {
+			isa = PBXGroup;
+			children = (
+				B225DED115636CCB007DA8A0 /* ViwBased */,
+				B225DEF215636CCB007DA8A0 /* ViwBasedTests */,
+				B225DECA15636CCB007DA8A0 /* Frameworks */,
+				B225DEC815636CCB007DA8A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B225DEC815636CCB007DA8A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B225DEC715636CCB007DA8A0 /* ViwBased.app */,
+				B225DEEB15636CCB007DA8A0 /* ViwBasedTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B225DECA15636CCB007DA8A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B225DECB15636CCB007DA8A0 /* UIKit.framework */,
+				B225DECD15636CCB007DA8A0 /* Foundation.framework */,
+				B225DECF15636CCB007DA8A0 /* CoreGraphics.framework */,
+				B225DEEC15636CCB007DA8A0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B225DED115636CCB007DA8A0 /* ViwBased */ = {
+			isa = PBXGroup;
+			children = (
+				B225DEDA15636CCB007DA8A0 /* AppDelegate.h */,
+				B225DEDB15636CCB007DA8A0 /* AppDelegate.m */,
+				B225DEDD15636CCB007DA8A0 /* MainStoryboard_iPhone.storyboard */,
+				B225DEE015636CCB007DA8A0 /* MainStoryboard_iPad.storyboard */,
+				B225DEE315636CCB007DA8A0 /* ViewController.h */,
+				B225DEE415636CCB007DA8A0 /* ViewController.m */,
+				B225DED215636CCB007DA8A0 /* Supporting Files */,
+			);
+			path = ViwBased;
+			sourceTree = "<group>";
+		};
+		B225DED215636CCB007DA8A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B225DED315636CCB007DA8A0 /* ViwBased-Info.plist */,
+				B225DED415636CCB007DA8A0 /* InfoPlist.strings */,
+				B225DED715636CCB007DA8A0 /* main.m */,
+				B225DED915636CCB007DA8A0 /* ViwBased-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B225DEF215636CCB007DA8A0 /* ViwBasedTests */ = {
+			isa = PBXGroup;
+			children = (
+				B225DEF815636CCB007DA8A0 /* ViwBasedTests.h */,
+				B225DEF915636CCB007DA8A0 /* ViwBasedTests.m */,
+				B225DEF315636CCB007DA8A0 /* Supporting Files */,
+			);
+			path = ViwBasedTests;
+			sourceTree = "<group>";
+		};
+		B225DEF315636CCB007DA8A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B225DEF415636CCB007DA8A0 /* ViwBasedTests-Info.plist */,
+				B225DEF515636CCB007DA8A0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B225DEC615636CCB007DA8A0 /* ViwBased */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B225DEFD15636CCB007DA8A0 /* Build configuration list for PBXNativeTarget "ViwBased" */;
+			buildPhases = (
+				B225DEC315636CCB007DA8A0 /* Sources */,
+				B225DEC415636CCB007DA8A0 /* Frameworks */,
+				B225DEC515636CCB007DA8A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViwBased;
+			productName = ViwBased;
+			productReference = B225DEC715636CCB007DA8A0 /* ViwBased.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B225DEEA15636CCB007DA8A0 /* ViwBasedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B225DF0015636CCB007DA8A0 /* Build configuration list for PBXNativeTarget "ViwBasedTests" */;
+			buildPhases = (
+				B225DEE615636CCB007DA8A0 /* Sources */,
+				B225DEE715636CCB007DA8A0 /* Frameworks */,
+				B225DEE815636CCB007DA8A0 /* Resources */,
+				B225DEE915636CCB007DA8A0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B225DEF115636CCB007DA8A0 /* PBXTargetDependency */,
+			);
+			name = ViwBasedTests;
+			productName = ViwBasedTests;
+			productReference = B225DEEB15636CCB007DA8A0 /* ViwBasedTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B225DEBE15636CCB007DA8A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B225DEC115636CCB007DA8A0 /* Build configuration list for PBXProject "ViwBased" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B225DEBC15636CCB007DA8A0;
+			productRefGroup = B225DEC815636CCB007DA8A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B225DEC615636CCB007DA8A0 /* ViwBased */,
+				B225DEEA15636CCB007DA8A0 /* ViwBasedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B225DEC515636CCB007DA8A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B225DED615636CCB007DA8A0 /* InfoPlist.strings in Resources */,
+				B225DEDF15636CCB007DA8A0 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B225DEE215636CCB007DA8A0 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B225DEE815636CCB007DA8A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B225DEF715636CCB007DA8A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B225DEE915636CCB007DA8A0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B225DEC315636CCB007DA8A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B225DED815636CCB007DA8A0 /* main.m in Sources */,
+				B225DEDC15636CCB007DA8A0 /* AppDelegate.m in Sources */,
+				B225DEE515636CCB007DA8A0 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B225DEE615636CCB007DA8A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B225DEFA15636CCB007DA8A0 /* ViwBasedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B225DEF115636CCB007DA8A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B225DEC615636CCB007DA8A0 /* ViwBased */;
+			targetProxy = B225DEF015636CCB007DA8A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B225DED415636CCB007DA8A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B225DED515636CCB007DA8A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B225DEDD15636CCB007DA8A0 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B225DEDE15636CCB007DA8A0 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B225DEE015636CCB007DA8A0 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B225DEE115636CCB007DA8A0 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B225DEF515636CCB007DA8A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B225DEF615636CCB007DA8A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B225DEFB15636CCB007DA8A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B225DEFC15636CCB007DA8A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B225DEFE15636CCB007DA8A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViwBased/ViwBased-Prefix.pch";
+				INFOPLIST_FILE = "ViwBased/ViwBased-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B225DEFF15636CCB007DA8A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViwBased/ViwBased-Prefix.pch";
+				INFOPLIST_FILE = "ViwBased/ViwBased-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B225DF0115636CCB007DA8A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViwBased.app/ViwBased";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViwBased/ViwBased-Prefix.pch";
+				INFOPLIST_FILE = "ViwBasedTests/ViwBasedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B225DF0215636CCB007DA8A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViwBased.app/ViwBased";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViwBased/ViwBased-Prefix.pch";
+				INFOPLIST_FILE = "ViwBasedTests/ViwBasedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B225DEC115636CCB007DA8A0 /* Build configuration list for PBXProject "ViwBased" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B225DEFB15636CCB007DA8A0 /* Debug */,
+				B225DEFC15636CCB007DA8A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B225DEFD15636CCB007DA8A0 /* Build configuration list for PBXNativeTarget "ViwBased" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B225DEFE15636CCB007DA8A0 /* Debug */,
+				B225DEFF15636CCB007DA8A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B225DF0015636CCB007DA8A0 /* Build configuration list for PBXNativeTarget "ViwBasedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B225DF0115636CCB007DA8A0 /* Debug */,
+				B225DF0215636CCB007DA8A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B225DEBE15636CCB007DA8A0 /* Project object */;
+}
